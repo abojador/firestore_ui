@@ -95,6 +95,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   int _currentIndex = 0;
 
+    debugPrint("Sample Change to test PR template");
+    
   CollectionReference get messages => widget.firestore.collection('messages');
 
   Future<void> _addMessage() async =>
